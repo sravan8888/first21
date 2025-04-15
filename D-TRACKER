@@ -8,7 +8,31 @@ EC2 global view - Summary of your resources across all Regions for which your ac
 instance - it is usefull to launch the operating sytem to host your application. and we make lot of changes init for our requirement.
            to launch instances it actively need few steps like instance type, ami, security group,keypair,network related settings and more to configure a instance
 Instance Types - there are 820+[t2,m,s,c,z,a e.t.c]] instance familes are there.
-               which represents general purpose, memory optimised,compute optimised,storage optimised and more
+               which represents general purpose, memory optimised,compute optimised,storage optimised, accelerated computing,High performance computing(HPC) optimized. 
+
+1. General Purpose:
+These instances balance compute, memory, and networking resources, making them suitable for a wide range of applications. 
+Examples: Application servers, gaming servers, backend servers, and small to medium databases. 
+Instance families: T, M, A. 
+2. Compute Optimized:
+These instances are designed for workloads that require high CPU performance, often in compute-intensive tasks.
+Examples: Application servers, gaming servers, and web applications.
+Instance families: C, Hpc. 
+3. Memory Optimized:
+These instances offer a high amount of RAM and are optimized for workloads that need to process large datasets in memory, such as in-memory databases or large-scale analytics.
+Instance families: R, X, High Memory, Z. 
+4. Storage Optimized:
+These instances are designed for workloads that require high-performance storage and are often used for high-volume data storage or databases.
+Instance families: I, D, H. 
+5. Accelerated Computing:
+These instances utilize accelerators like GPUs, FPGAs, and Inferentia/Trainium chips to speed up specific types of workloads.
+Examples: GPU-accelerated workloads, FPGA-based applications, and deep learning.
+Instance families: P, DL, Trn, Inf, G, F, VT. 
+6. High-Performance Computing (HPC) Optimized:
+These instances offer high performance computing capabilities, often used for scientific simulations, engineering tasks, and other computationally intensive applications. 
+Instance families: Hpc.
+
+
 launch templates - it helps to launch ec2 instance faster with all predefined configurations i.e instance type,ami,security group,keypair. 
                     if you going to launch instance normaly it takes time to configure all the prereusites, if you go with launch templates it takes less time
                     because already we defined prerequisites related to instance 
@@ -16,3 +40,9 @@ Spot Requests(instance) - spot instance if one type of instance which we can cre
                           if you talk about priceing it is cheep compare to on-demand instance. 
 Saving Plans - if want instance for a long time(1 to 3 years) saving plan type will help to provide instance for low price depending 
                on your commitment and duration. 
+Reserved Instances - this instance also haveing the same futures like saving plan. 
+                    that future is if you hold this instance for 1 to 3 years it will get for you with low cost.
+Dedicated Hosts - if you have a bussiness or project for that operation if you need a dedicated server for your operations to host your application
+                 ,scale up instance, storage and more you can use Dedicated hosts for smoth opeartion of your server
+Capacity Reservations - In AWS, a Capacity Reservation allows you to reserve compute capacity for your Amazon EC2 instances in a specific Availability Zone for any duration. 
+                       This guarantees you'll have access to that capacity when you need it, particularly for business-critical workloads or when you anticipate capacity constraints. 
