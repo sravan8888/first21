@@ -4,3 +4,8 @@ Dashboard - if you click on dashboard it shows all the resources. what are activ
 EC2 global view - Summary of your resources across all Regions for which your account is enabled. 
                   it shows all the active and created resources like instances,subnets,routetables,vpc e.t.c
                   according to your active working region you check the resource and if other than that region if you not need delete the resource
+
+instance - it is usefull to launch the operating sytem to host your application. and we make lot of changes init for our requirement.
+           to launch instances it actively need few steps like instance type, ami, security group,keypair,network related settings and more to configure a instance
+Instance Types - there are 820+[t2,m,s,c,z,a e.t.c]] instance familes are there.
+               which represents general purpose, memory optimised,compute optimised,storage optimised and more
