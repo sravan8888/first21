@@ -12,3 +12,7 @@ Instance Types - there are 820+[t2,m,s,c,z,a e.t.c]] instance familes are there.
 launch templates - it helps to launch ec2 instance faster with all predefined configurations i.e instance type,ami,security group,keypair. 
                     if you going to launch instance normaly it takes time to configure all the prereusites, if you go with launch templates it takes less time
                     because already we defined prerequisites related to instance 
+Spot Requests(instance) - spot instance if one type of instance which we can create spot. it uses empty space in the ec2 instance and creat the instance.
+                          if you talk about priceing it is cheep compare to on-demand instance. 
+Saving Plans - if want instance for a long time(1 to 3 years) saving plan type will help to provide instance for low price depending 
+               on your commitment and duration. 
