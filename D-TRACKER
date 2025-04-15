@@ -1,0 +1,6 @@
+EC2 
+Dashboard - if you click on dashboard it shows all the resources. what are active and available resources related to our aws account
+              in all the available regions   
+EC2 global view - Summary of your resources across all Regions for which your account is enabled. 
+                  it shows all the active and created resources like instances,subnets,routetables,vpc e.t.c
+                  according to your active working region you check the resource and if other than that region if you not need delete the resource
