@@ -61,6 +61,37 @@ AMIs: stands for AMAZON machine image which is usefull when you launch an ec2 in
 AMI Catalog: 
        in the space of AMI Catalog we find different type of ami's those are created by ourself.
        market available these are trusted by thrird party providers. community ami these are created by any one 
-    accordingly your requirement you can create or reuest ami and launch 1 or multiple instances
+    accordingly your requirement you can create or reuest ami and launch 1 or multiple instances.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
