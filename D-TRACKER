@@ -46,3 +46,21 @@ Dedicated Hosts - if you have a bussiness or project for that operation if you n
                  ,scale up instance, storage and more you can use Dedicated hosts for smoth opeartion of your server
 Capacity Reservations - In AWS, a Capacity Reservation allows you to reserve compute capacity for your Amazon EC2 instances in a specific Availability Zone for any duration. 
                        This guarantees you'll have access to that capacity when you need it, particularly for business-critical workloads or when you anticipate capacity constraints. 
+
+IMAGES: 
+AMI (Amazon Machine Image) is like a blueprint or template used to launch EC2 instances. It contains:
+The operating system (like Ubuntu, Amazon Linux, Windows)
+Software/configurations pre-installed (like Apache, Docker, Java, etc.)
+Application code (optional)
+Permissions and launch settings
+When you launch an EC2 instance, you're basically telling AWS:
+"Hey! I want to create a virtual machine based on this AMI."
+AMIs: stands for AMAZON machine image which is usefull when you launch an ec2 in specific region and also you have a instance with
+      with all the configurations and dependencies so i need same type of 3 instance i need to launch at that time AMI is image is 
+      usefull to launch reuired number instance in the region
+AMI Catalog: 
+       in the space of AMI Catalog we find different type of ami's those are created by ourself.
+       market available these are trusted by thrird party providers. community ami these are created by any one 
+    accordingly your requirement you can create or reuest ami and launch 1 or multiple instances
+
+
