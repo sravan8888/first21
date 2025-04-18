@@ -61,9 +61,25 @@ AMIs: stands for AMAZON machine image which is usefull when you launch an ec2 in
 AMI Catalog: 
        in the space of AMI Catalog we find different type of ami's those are created by ourself.
        market available these are trusted by thrird party providers. community ami these are created by any one 
-    accordingly your requirement you can create or reuest ami and launch 1 or multiple instances.
+       accordingly your requirement you can create or reuest ami and launch 1 or multiple instances.
+
+Elastic Block Store[EBS} :
+      ebs is a storage which is used to attach to instance as a volume.
+volume: if you want more storage space for instance you can create volume and attach it to instance.
+if instance get restart or terminated the stored data in the volume is remain same and you can attach it to new instance to access the volume
+
+SNAPSHOT : 
+        if you want to take back of data in volume snapshot will help to take backup and as per requirement you can use it 
+lifecycle manager: 
+        EBS Lifecycle Manager helps you automatically create and delete EBS snapshots on a schedule — no need to manually create backups!
+        at any point of time you want to take back of data in the volume without your intervention you can create backup by schedule it.
+Use Case | Example
+💾 Backup Data Daily | Auto-snapshot volumes every night.
+🔄 Retention Policy | Keep only last 7 snapshots, delete older ones.
+📈 Compliance | Keep weekly/monthly backups for audit purposes.
 
 
+        
 
 
 
