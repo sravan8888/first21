@@ -90,6 +90,8 @@ while selecting the inbond rule you can mention type as per your requirement tha
 
 ssh 22 - if you want to connect your instance through putty or gitbash.
           you need ssh for secure connect without ssh we can not connect to instance 
+Outbond Rule:
+this will help to control the outbond trafic where to go that means if you mention HTTP or HTTPS it will send traffic to webserver only 
 
         
 
