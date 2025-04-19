@@ -78,6 +78,18 @@ Use Case | Example
 🔄 Retention Policy | Keep only last 7 snapshots, delete older ones.
 📈 Compliance | Keep weekly/monthly backups for audit purposes.
 
+Security group:=
+       security group in aws is act as a security firewall for instance by configuring inbond and outbond trafic 
+       if you specify inbond trafic like who to access your application i.e incomeing traffic 
+      if you specify outbond trafic which is to control outgoing traffic from instance 
+while selecting the inbond rule you can mention type as per your requirement that is ssh or http e.t.c along with required port id
+ in source you can chouse as per your reqquirement we have my ip,custom,anywhere-ipv4
+> if it is my ip only that particular ip only get access your application
+>if it is custom the difined ip's cidr range only get access
+>anywhere-ipv4 This is common for public web servers, where you want users from any IP address to reach your website.
+
+ssh 22 - if you want to connect your instance through putty or gitbash.
+          you need ssh for secure connect without ssh we can not connect to instance 
 
         
 
