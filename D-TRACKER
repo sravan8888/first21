@@ -93,7 +93,29 @@ ssh 22 - if you want to connect your instance through putty or gitbash.
 Outbond Rule:
 this will help to control the outbond trafic where to go that means if you mention HTTP or HTTPS it will send traffic to webserver only 
 
-        
+Elastic IP : 
+            elastic ip is a static ip if you attach the elastic ip to instance if it is restart or stop ip will same.
+
+aws key pair :
+           we have a instance in the aws to connect the instance with putty or any other secure tools we need key pair.
+         which helps to connect instance with ssh(secure shell)
+we have only one key pair if you loss it we can not generate another. keep key pair safe 
+
+Network Interface :
+        What is an Elastic Network Interface (ENI)?
+An ENI is a virtual representation of a network card in AWS. It includes the following components:
+Primary private IPv4 address (one per ENI, mandatory)
+One or more secondary private IPv4 addresses (optional)
+One Elastic IP address (optional, IPv4 only)
+One or more security groups
+A MAC address
+A source/destination check flag
+A description
+A public IP (optional)
+🔸 Where is it used?
+ENIs are mainly used in Amazon VPC and are essential for networking in EC2 instances.
+
+
 
 
 
